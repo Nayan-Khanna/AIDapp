@@ -48,6 +48,6 @@ int main() {
     }
 
     cout << cnt;
-    #print the number of max monkeys which can be fought
+    // print the number of max monkeys which can be fought
 	return 0;
 } 
