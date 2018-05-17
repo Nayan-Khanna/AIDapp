@@ -47,7 +47,7 @@ int main() {
         maxcnt = max(cnt, maxcnt); 
     }
 
-    cout << cnt;
+    cout << maxcnt;
     // print the number of max monkeys which can be fought
 	return 0;
 } 
