@@ -36,7 +36,7 @@ int main() {
  
         // Else, remove the first monkey of this window
         // add the current monkey 
-        else if(sum!=0)
+        else if(sum<=k)
         {
             sum = sum - arr[i - cnt] + arr[i];
 	    d /= arr[i-cnt];
