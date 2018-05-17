@@ -29,7 +29,7 @@ int main() {
         // then fight the monkey
         if ((sum + arr[i]) <= k && (arr[i]*d)<=D) {
             sum += arr[i]; 
-            d *= arr[i];
+            d*= arr[i];
             cnt++;
         } 
         // cnt is the counter of maximum monkeys which can be fighted.
@@ -39,8 +39,8 @@ int main() {
         else if(sum!=0)
         {
             sum = sum - arr[i - cnt] + arr[i];
-	    d / = arr[i-cnt];
-            d* = arr[i];
+	    d /= arr[i-cnt];
+            d *= arr[i];
         }
  
         // keep track of max length.
