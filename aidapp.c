@@ -39,6 +39,8 @@ int main() {
         else if(sum!=0)
         {
             sum = sum - arr[i - cnt] + arr[i];
+	    d / = arr[i-cnt];
+            d* = arr[i];
         }
  
         // keep track of max length.
